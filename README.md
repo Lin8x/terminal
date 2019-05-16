@@ -58,7 +58,7 @@ Further, we realized that this would allow us to build the terminal's renderer a
 
 # :postbox: &nbsp; FAQ &nbsp; :postbox:
 
-## *Where can I download Windows Terminal?*
+## Where can I download Windows Terminal?
 
 ### There are no binaries to download quite yet. 
 
@@ -66,18 +66,18 @@ The Windows Terminal is in the _very early_ alpha stage, and not ready for the g
 
 Otherwise, you'll need to wait until Mid-June for an official preview build to drop.
 
-## *I built and ran the new Terminal, but I just get a blank window app!*
+## I built and ran the new Terminal, but I just get a blank window app!
 
 Make sure your are building for your computer's architecture. If your box has a 64-bit Windows change your Solution Platform to x64.  
 To check your OS architecture go to Settings -> System -> About (or Win+X -> System) and under `Device specifications` check for the  `System type`
 
-## *I built and ran the new Terminal, but it looks just like the old console! What gives?*
+## I built and ran the new Terminal, but it looks just like the old console! What gives?
 
 Firstly, make sure you're building & deploying `CascadiaPackage` in Visual Studio, _NOT_ `Host.EXE`. `OpenConsole.exe` is just `conhost.exe`, the same old console you know and love. `opencon.cmd` will launch `openconsole.exe`, and unfortunately, `openterm.cmd` is currently broken.
 
 Secondly, try pressing <kbd>Ctrl</kbd> + <kbd>T</kbd>. The tabs are hidden when you only have one tab by default. In the future, the UI will be dramatically different, but for now, the defaults are _supposed_ to look like the console defaults.
 
-## *I tried running WindowsTerminal.exe and it crashes!*
+## I tried running WindowsTerminal.exe and it crashes!
 
 * Don't try to run it unpackaged. Make sure to build & deploy `CascadiaPackage` from Visual Studio, and run the Windows Terminal (Dev Build) app.
 * Make sure you're on the right version of Windows. You'll need to be on Insider's builds, or wait for the 1903 release, as the Windows Terminal **REQUIRES** features from the latest Windows release.
