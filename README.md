@@ -10,14 +10,14 @@
 #### Other related repositories include:
   * [Console API Documentation](https://github.com/MicrosoftDocs/Console-Docs/issues)
 
-### Build Status
+### :nut_and_bolt: Build Status :nut_and_bolt:
 
 Project|Build Status
 ---|---
 Terminal|[![Build Status](https://dev.azure.com/ms/Terminal/_apis/build/status/Terminal%20CI?branchName=master)](https://dev.azure.com/ms/Terminal/_build?definitionId=136)
 ColorTool|![](https://microsoft.visualstudio.com/_apis/public/build/definitions/c93e867a-8815-43c1-92c4-e7dd5404f1e1/17023/badge)
 
-# Terminal & Console Overview
+# :mag_right: Terminal & Console Overview :mag:
 
 Please take a few minutes to review the overview below before diving into the code:
 
