@@ -1,3 +1,4 @@
+------------------------------------------------------------------------
 # :tada: &nbsp; Welcome\! :tada: &nbsp;
 #### This repository contains the source code for:
 
@@ -16,6 +17,8 @@ Project|Build Status
 ---|---
 Terminal|[![Build Status](https://dev.azure.com/ms/Terminal/_apis/build/status/Terminal%20CI?branchName=master)](https://dev.azure.com/ms/Terminal/_build?definitionId=136)
 ColorTool|![](https://microsoft.visualstudio.com/_apis/public/build/definitions/c93e867a-8815-43c1-92c4-e7dd5404f1e1/17023/badge)
+
+------------------------------------------------------------------------
 
 # :mag_right: &nbsp; Terminal & Console Overview &nbsp; :mag:
 
@@ -51,7 +54,9 @@ When we started building the new terminal application, we explored and evaluated
 
 Further, we realized that this would allow us to build the terminal's renderer and input stack as a reusable Windows UI control that others can incorporate into their applications.
 
-# :clipboard: &nbsp; FAQ &nbsp; :clipboard:
+------------------------------------------------------------------------
+
+# :postbox: &nbsp; FAQ &nbsp; :postbox:
 
 ## *Where can I download Windows Terminal?*
 
@@ -76,6 +81,8 @@ Secondly, try pressing <kbd>Ctrl</kbd> + <kbd>T</kbd>. The tabs are hidden when 
 
 * Don't try to run it unpackaged. Make sure to build & deploy `CascadiaPackage` from Visual Studio, and run the Windows Terminal (Dev Build) app.
 * Make sure you're on the right version of Windows. You'll need to be on Insider's builds, or wait for the 1903 release, as the Windows Terminal **REQUIRES** features from the latest Windows release.
+
+------------------------------------------------------------------------
 
 # :high_brightness: &nbsp; Getting Started &nbsp; :high_brightness:
 
@@ -130,7 +137,9 @@ If you would like to ask a question that you feel doesn't warrant an issue (yet)
 
   * Kayla Cinnamon, Program Manager (especially for UX issues): [@cinnamon\_msft](https://twitter.com/cinnamon_msft)
 
-# Developer Guidance
+------------------------------------------------------------------------
+
+# :bookmark_tabs: &nbsp; Developer Guidance &nbsp; :bookmark_tabs:
 
 ## Building the Code
 
@@ -162,7 +171,9 @@ This is a work in progress as we learn what we'll need to provide people in orde
   - [Exceptions in our legacy codebase](https://github.com/Microsoft/Terminal/blob/master/doc/EXCEPTIONS.md)
   - [Helpful smart pointers and macros for interfacing with Windows in WIL](https://github.com/Microsoft/Terminal/blob/master/doc/WIL.md)
 
-# Code of Conduct
+------------------------------------------------------------------------
+
+# :clipboard: Code of Conduct :clipboard:
 
 This project has adopted the [Microsoft Open Source Code of Conduct][conduct-code].
 For more information see the [Code of Conduct FAQ][conduct-FAQ] or contact [opencode@microsoft.com][conduct-email] with any additional questions or comments.
